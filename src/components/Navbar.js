@@ -28,7 +28,9 @@ export default class Navbar extends React.Component {
           <Scrollchor to="#contact">
             <i className="far fa-envelope"></i>
           </Scrollchor>
-          <i className="fab fa-github"></i>
+          <a href="https://github.com/octaviandd">
+            <i className="fab fa-github"></i>
+          </a>
         </div>
       </div>
     );

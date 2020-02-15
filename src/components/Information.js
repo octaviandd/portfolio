@@ -1,25 +1,13 @@
 /** @format */
 import React from "react";
 import Title from "./Title";
-import { useState } from "react";
-import { Document, Page } from "react-pdf";
 
 export default class Information extends React.Component {
   constructor(props) {
     super(props);
-
-    this.state = {
-      numPages: null,
-      pageNumber: 1
-    };
   }
 
-  onDocumentLoadSuccess = ({ numPages }) => {
-    this.setState({ numPages });
-  };
-
   render() {
-    const { pageNumber, numPages } = this.state;
     return (
       <div className="information-container">
         <div className="information-topbar">
@@ -54,7 +42,7 @@ export default class Information extends React.Component {
             <div className="information-item">
               <p>> Octavian.resume</p>
               <p>
-                <a>"resume.pdf"</a>
+                <a href="https://docdro.id/9AeBuha">"resume.pdf"</a>
               </p>
             </div>
             <div className="information-item">

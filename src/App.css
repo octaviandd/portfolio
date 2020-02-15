@@ -241,6 +241,7 @@ body {
 
 .project-stack {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .project-stack p {

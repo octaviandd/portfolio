@@ -23,7 +23,6 @@ export default function Projects() {
                 <p>CSS3</p>
                 <p>JavaScript</p>
                 <p>ES6</p>
-                <p>CreateReactApp</p>
                 <p>ReactJS</p>
               </div>
               <div className="project-links">
@@ -57,7 +56,6 @@ export default function Projects() {
                 <p>HTML5</p>
                 <p>CSS3</p>
                 <p>JavaScript</p>
-                <p>CreateReactApp</p>
                 <p>ES6</p>
                 <p>ReactJS</p>
               </div>
@@ -92,7 +90,6 @@ export default function Projects() {
                 <p>HTML5</p>
                 <p>CSS3</p>
                 <p>JavaScript</p>
-                <p>CreateReactApp</p>
                 <p>ES6</p>
                 <p>ReactJS</p>
               </div>
