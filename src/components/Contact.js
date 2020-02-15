@@ -5,7 +5,7 @@ import React from "react";
 export default function Contact() {
   return (
     <div className="contact-container">
-      <h1>Contact</h1>
+      <h1 id="contact">Contact</h1>
       <div className="contact-information">
         <a href="mailto:octaviandd@yahoo.com">octaviandd@yahoo.com</a>
         <span>||</span>

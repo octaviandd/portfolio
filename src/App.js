@@ -7,8 +7,14 @@ import Title from "./components/Title";
 import Information from "./components/Information";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+var Scroll = require("react-scroll");
+
+let Element = Scroll.Element;
 
 function App() {
+
+  
+
   return (
     <div>
       <Navbar />

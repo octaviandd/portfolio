@@ -137,6 +137,7 @@ body {
 
 .information-item a {
   color: #6beffe;
+  text-decoration: none;
 }
 
 .information-item :nth-child(2) {

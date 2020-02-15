@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <div className="projects-container">
       <section>
-        <h1>Projects</h1>
+        <h1 id="projects">Projects</h1>
         <div className="projects-list">
           <article className="project-item">
             <div className="project-image1"></div>
