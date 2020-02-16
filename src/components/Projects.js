@@ -9,6 +9,40 @@ export default function Projects() {
         <h1 id="projects">Projects</h1>
         <div className="projects-list">
           <article className="project-item">
+            <div className="project-image4"></div>
+            <div className="project-information">
+              <h3>Foodie</h3>
+              <p>
+                My first real challenge in Vanilla JavaScript comes after many
+                other smaller projects. A To Do App is build with the same
+                basics that complex web applications are build upon. This
+                project makes use of localStorage and renders different tasks
+                and options.
+              </p>
+              <div className="project-stack">
+                <p>HTML5</p>
+                <p>CSS3</p>
+                <p>JavaScript</p>
+                <p>ES6</p>
+                <p>ReactJS</p>
+              </div>
+              <div className="project-links">
+                <button>
+                  <a href="https://food-search-octavian.netlify.com/">
+                    <span>Live Demo</span>
+                    <i className="fas fa-external-link-alt"></i>
+                  </a>
+                </button>
+                <button>
+                  <a href="https://github.com/octaviandd/food-search">
+                    <span>View Source</span>
+                    <i className="fab fa-github"></i>
+                  </a>
+                </button>
+              </div>
+            </div>
+          </article>
+          <article className="project-item">
             <div className="project-image1"></div>
             <div className="project-information">
               <h3>Moutain View</h3>
@@ -102,41 +136,6 @@ export default function Projects() {
                 </button>
                 <button>
                   <a href="https://github.com/octaviandd/movie-search-react">
-                    <span>View Source</span>
-                    <i className="fab fa-github"></i>
-                  </a>
-                </button>
-              </div>
-            </div>
-          </article>
-          <article className="project-item">
-            <div className="project-image4"></div>
-            <div className="project-information">
-              <h3>To Do App</h3>
-              <p>
-                My first real challenge in Vanilla JavaScript comes after many
-                other smaller projects. A To Do App is build with the same
-                basics that complex web applications are build upon. This
-                project makes use of localStorage and renders different tasks
-                and options.
-              </p>
-              <div className="project-stack">
-                <p>HTML5</p>
-                <p>CSS3</p>
-                <p>Webpack</p>
-                <p>NPM</p>
-                <p>JavaScript</p>
-                <p>ES6</p>
-              </div>
-              <div className="project-links">
-                <button>
-                  <a href="https://todoapp-octavian.netlify.com">
-                    <span>Live Demo</span>
-                    <i className="fas fa-external-link-alt"></i>
-                  </a>
-                </button>
-                <button>
-                  <a href="https://github.com/octaviandd/todoApp">
                     <span>View Source</span>
                     <i className="fab fa-github"></i>
                   </a>
