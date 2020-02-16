@@ -7,8 +7,8 @@ export default class Title extends Component {
     const { strings } = this.props;
     const options = {
       strings: strings,
-      typeSpeed: 50,
-      backSpeed: 50
+      typeSpeed: 20,
+      backSpeed: 30
     };
     this.typed = new Typed(this.el, options);
   }

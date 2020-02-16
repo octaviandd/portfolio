@@ -13,11 +13,10 @@ export default function Projects() {
             <div className="project-information">
               <h3>Foodie</h3>
               <p>
-                My first real challenge in Vanilla JavaScript comes after many
-                other smaller projects. A To Do App is build with the same
-                basics that complex web applications are build upon. This
-                project makes use of localStorage and renders different tasks
-                and options.
+                My thoughest challenge yet, this is a project with uses a
+                nutrition API to request data. It is made of three pages, one
+                four individual products, how to calculate nutrition values and
+                one to search for recipes with a sidebar.
               </p>
               <div className="project-stack">
                 <p>HTML5</p>
