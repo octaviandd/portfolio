@@ -42,7 +42,9 @@ export default class Information extends React.Component {
             <div className="information-item">
               <p>> Octavian.resume</p>
               <p>
-                <a href="https://docdro.id/9AeBuha">"resume.pdf"</a>
+                <a href="https://www.docdroid.net/gs3zxI1/octaviandavidcv2020.pdf">
+                  "resume.pdf"
+                </a>
               </p>
             </div>
             <div className="information-item">

@@ -13,10 +13,11 @@ export default function Projects() {
             <div className="project-information">
               <h3>Foodie</h3>
               <p>
-                My thoughest challenge yet, this is a project with uses a
+                My thoughest challenge yet, this is a project which uses a
                 nutrition API to request data. It is made of three pages, one
                 four individual products, how to calculate nutrition values and
-                one to search for recipes with a sidebar.
+                one to search for recipes, with a sidebar for navigation made
+                with React Router.
               </p>
               <div className="project-stack">
                 <p>HTML5</p>
