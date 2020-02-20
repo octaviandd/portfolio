@@ -8,11 +8,11 @@ export default function Contact() {
       <h1 id="contact">Contact</h1>
       <div className="contact-information">
         <a href="mailto:octaviandd@yahoo.com">octaviandd@yahoo.com</a>
-        <span>||</span>
+        <span className="bars">||</span>
         <a href="https://www.linkedin.com/in/octavian-david-41b610180/">
           LinkedIn
         </a>
-        <span>||</span>
+        <span className="bars">||</span>
         <a href="https://github.com/octaviandd">GitHub</a>
       </div>
     </div>

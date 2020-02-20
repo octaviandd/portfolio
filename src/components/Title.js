@@ -19,7 +19,7 @@ export default class Title extends Component {
 
   render() {
     return (
-      <div>
+      <React.Fragment>
         <div className="type-wrap">
           <span
             style={{ whiteSpace: "pre" }}
@@ -28,7 +28,7 @@ export default class Title extends Component {
             }}
           />
         </div>
-      </div>
+      </React.Fragment>
     );
   }
 }

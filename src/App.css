@@ -72,6 +72,18 @@ body {
   font-weight: bold;
 }
 
+@media only screen and (max-width: 1200px) {
+  .type-wrap {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .information-item {
+    word-break: break-all;
+  }
+}
+
 /* INFORMATION CONTAINER */
 
 .information-container {
@@ -218,9 +230,49 @@ body {
   border-bottom-left-radius: 10px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .project-image1,
+  .project-image2,
+  .project-image3,
+  .project-image4 {
+    display: none;
+  }
+  .project-item:hover {
+    transform: scale(1, 1);
+  }
+
+  .project-item {
+    display: flex;
+  }
+
+  .project-links {
+    margin-bottom: 30px;
+  }
+
+  .project-information {
+    padding-left: 0;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 678px) {
+  .project-links button {
+    margin-bottom: 10px;
+  }
+  .project-stack p {
+    margin: 3px 3px;
+  }
+
+  .project-information {
+    padding-left: 2vh;
+    padding-right: 2vh;
+  }
+}
+
 .project-information {
   padding-top: 8vh;
-  padding-left: 11vh;
+  padding-left: 5.5vh;
+  padding-right: 2vh;
   background-color: #ffffff;
   color: #525f7f;
   border-top-right-radius: 10px;
@@ -244,11 +296,14 @@ body {
   flex-wrap: wrap;
 }
 
-.project-stack p {
-  padding: 3px 5px;
-  border: 2px solid #7510f7;
+.project-stack i {
+  padding: 4px 6px;
+  border: 1px solid #7510f7;
   border-radius: 4px;
   font-size: 14px;
+  margin-bottom: 30px;
+  margin-right: 40px;
+  font-size: 28px;
 }
 
 .project-links button {
@@ -338,4 +393,26 @@ body {
 .contact-information a:hover {
   border-bottom: 2px solid #141c3a;
   color: rgba(20, 28, 58, 0.6);
+}
+
+@media only screen and (max-width: 800px) {
+  .bars {
+    display: none;
+  }
+
+  .contact-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.devicon-git-plain {
+  max-width: 2em;
+}
+
+/* if you want to change the original color */
+.devicon-git-plain path {
+  fill: #4691f6;
 }

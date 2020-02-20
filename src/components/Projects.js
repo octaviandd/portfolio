@@ -20,11 +20,11 @@ export default function Projects() {
                 with React Router.
               </p>
               <div className="project-stack">
-                <p>HTML5</p>
-                <p>CSS3</p>
-                <p>JavaScript</p>
-                <p>ES6</p>
-                <p>ReactJS</p>
+                <i class="devicon-html5-plain colored"></i>
+                <i class="devicon-css3-plain-wordmark colored"></i>
+                <i class="devicon-javascript-plain colored"></i>
+                <i class="devicon-react-original colored"></i>
+                <i class="devicon-git-plain colored"></i>
               </div>
               <div className="project-links">
                 <button>
@@ -53,11 +53,11 @@ export default function Projects() {
                 Router for fast mobility.
               </p>
               <div className="project-stack">
-                <p>HTML5</p>
-                <p>CSS3</p>
-                <p>JavaScript</p>
-                <p>ES6</p>
-                <p>ReactJS</p>
+                <i class="devicon-html5-plain colored"></i>
+                <i class="devicon-css3-plain-wordmark colored"></i>
+                <i class="devicon-javascript-plain colored"></i>
+                <i class="devicon-react-original colored"></i>
+                <i class="devicon-git-plain colored"></i>
               </div>
               <div className="project-links">
                 <button>
@@ -87,11 +87,11 @@ export default function Projects() {
                 and renders the top git repositories.
               </p>
               <div className="project-stack">
-                <p>HTML5</p>
-                <p>CSS3</p>
-                <p>JavaScript</p>
-                <p>ES6</p>
-                <p>ReactJS</p>
+                <i class="devicon-html5-plain colored"></i>
+                <i class="devicon-css3-plain-wordmark colored"></i>
+                <i class="devicon-javascript-plain colored"></i>
+                <i class="devicon-react-original colored"></i>
+                <i class="devicon-git-plain colored"></i>
               </div>
               <div className="project-links">
                 <button>
@@ -121,11 +121,11 @@ export default function Projects() {
               </p>
               <div className="project-stack">
                 {" "}
-                <p>HTML5</p>
-                <p>CSS3</p>
-                <p>JavaScript</p>
-                <p>ES6</p>
-                <p>ReactJS</p>
+                <i class="devicon-html5-plain colored"></i>
+                <i class="devicon-css3-plain-wordmark colored"></i>
+                <i class="devicon-javascript-plain colored"></i>
+                <i class="devicon-react-original colored"></i>
+                <i class="devicon-git-plain colored"></i>
               </div>
               <div className="project-links">
                 <button>
