@@ -9,6 +9,50 @@ export default function Projects() {
         <h1 id="projects">Projects</h1>
         <div className="projects-list">
           <article className="project-item">
+            <div className="project-image3"></div>
+            <div className="project-information">
+              <h3>DREAMMARKET</h3>
+              <p>
+                This is a personal project made with reference to my passion for
+                Psychology and also a possible tool for a sub-reddit community
+                of psychology, jungians and people who are interested in sharing
+                their experiences and learn more.
+              </p>
+              <div className="project-stack">
+                {" "}
+                <i class="devicon-html5-plain colored"></i>
+                <i class="devicon-css3-plain-wordmark colored"></i>
+                <i class="devicon-express-original-wordmark"></i>
+                <i class="devicon-nodejs-plain-wordmark"></i>
+                <i class="devicon-javascript-plain colored"></i>
+                <i class="devicon-react-original colored"></i>
+                <i class="devicon-git-plain colored"></i>
+                <i class="devicon-mongodb-plain-wordmark colored"></i>
+                <i>
+                  <span
+                    class="iconify"
+                    data-icon="simple-icons:redux"
+                    data-inline="false"
+                  ></span>
+                </i>
+              </div>
+              <div className="project-links">
+                <button>
+                  <a href="https://evening-badlands-78182.herokuapp.com/">
+                    <span>Live Demo</span>
+                    <i className="fas fa-external-link-alt"></i>
+                  </a>
+                </button>
+                <button>
+                  <a href="https://github.com/octaviandd/DREAMMARKET">
+                    <span>View Source</span>
+                    <i className="fab fa-github"></i>
+                  </a>
+                </button>
+              </div>
+            </div>
+          </article>
+          <article className="project-item">
             <div className="project-image4"></div>
             <div className="project-information">
               <h3>Foodie</h3>
@@ -102,40 +146,6 @@ export default function Projects() {
                 </button>
                 <button>
                   <a href="https://github.com/octaviandd/git-repositories-react">
-                    <span>View Source</span>
-                    <i className="fab fa-github"></i>
-                  </a>
-                </button>
-              </div>
-            </div>
-          </article>
-          <article className="project-item">
-            <div className="project-image3"></div>
-            <div className="project-information">
-              <h3>Movie-Search</h3>
-              <p>
-                As an avid movies fan, one project that seemed intersting to me
-                was one that made use of a pulbic API, more specifically MovieDB
-                API. Movie-Search alows you to search for movies and gives IMDB
-                ratings and other similar movies.
-              </p>
-              <div className="project-stack">
-                {" "}
-                <i class="devicon-html5-plain colored"></i>
-                <i class="devicon-css3-plain-wordmark colored"></i>
-                <i class="devicon-javascript-plain colored"></i>
-                <i class="devicon-react-original colored"></i>
-                <i class="devicon-git-plain colored"></i>
-              </div>
-              <div className="project-links">
-                <button>
-                  <a href="https://moovie-search-octavian.netlify.com/">
-                    <span>Live Demo</span>
-                    <i className="fas fa-external-link-alt"></i>
-                  </a>
-                </button>
-                <button>
-                  <a href="https://github.com/octaviandd/movie-search-react">
                     <span>View Source</span>
                     <i className="fab fa-github"></i>
                   </a>

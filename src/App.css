@@ -213,7 +213,7 @@ body {
 .project-image3 {
   height: 450px;
   width: 300px;
-  background-image: url("./images/image3.png");
+  background-image: url("./images/item10.png");
   background-repeat: no-repeat;
   background-size: cover;
   border-top-left-radius: 10px;
@@ -415,4 +415,8 @@ body {
 /* if you want to change the original color */
 .devicon-git-plain path {
   fill: #4691f6;
+}
+
+.iconify {
+  color: purple;
 }
