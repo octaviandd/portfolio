@@ -62,7 +62,7 @@ export default class Information extends React.Component {
               <p>> Octavian.skills</p>
               <p>
                 ["HTML", "CSS", "JavaScript", "Python", "webpack", "React",
-                "git", "NPM", "terminal"]
+                "Redux", "nodeJS", "Express", MongoDB, "git", "terminal"]
               </p>
             </div>
             <div className="information-item">
