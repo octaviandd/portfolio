@@ -9,6 +9,44 @@ export default function Projects() {
         <h1 id="projects">Projects</h1>
         <div className="projects-list">
           <article className="project-item">
+            <div className="project-image2"></div>
+            <div className="project-information">
+              <h3>InviteMe</h3>
+              <p>
+                {" "}
+                Full-Stack application with a back-end created with NodeJS -
+                ExpressJS - MongoDB, while the front-end is made with HTML - CSS
+                - React. It is a tool for planning meetings overall, every user
+                needs registration and authentication, made possible with
+                JSONWebTokens and React Router.
+              </p>
+              <div className="project-stack">
+                <i class="devicon-html5-plain colored"></i>
+                <i class="devicon-css3-plain-wordmark colored"></i>
+                <i class="devicon-express-original-wordmark"></i>
+                <i class="devicon-nodejs-plain-wordmark"></i>
+                <i class="devicon-javascript-plain colored"></i>
+                <i class="devicon-react-original colored"></i>
+                <i class="devicon-git-plain colored"></i>
+                <i class="devicon-mongodb-plain-wordmark colored"></i>
+              </div>
+              <div className="project-links">
+                <button>
+                  <a href="https://github.com/octaviandd/InviteSystem">
+                    <span>Live Demo</span>
+                    <i className="fas fa-external-link-alt"></i>
+                  </a>
+                </button>
+                <button>
+                  <a href="https://github.com/octaviandd/InviteSystem">
+                    <span>View Source</span>
+                    <i className="fab fa-github"></i>
+                  </a>
+                </button>
+              </div>
+            </div>
+          </article>
+          <article className="project-item">
             <div className="project-image3"></div>
             <div className="project-information">
               <h3>DREAMMARKET</h3>
@@ -112,40 +150,6 @@ export default function Projects() {
                 </button>
                 <button>
                   <a href="https://github.com/octaviandd/mountain-resort-react">
-                    <span>View Source</span>
-                    <i className="fab fa-github"></i>
-                  </a>
-                </button>
-              </div>
-            </div>
-          </article>
-          <article className="project-item">
-            <div className="project-image2"></div>
-            <div className="project-information">
-              <h3>Git-Player</h3>
-              <p>
-                {" "}
-                The most popular technology amongst programmers and a a really
-                good tool to cooperate with others. Git-Player is one of my
-                projects aimed towards helping the comunity. It uses GitHub API
-                and renders the top git repositories.
-              </p>
-              <div className="project-stack">
-                <i class="devicon-html5-plain colored"></i>
-                <i class="devicon-css3-plain-wordmark colored"></i>
-                <i class="devicon-javascript-plain colored"></i>
-                <i class="devicon-react-original colored"></i>
-                <i class="devicon-git-plain colored"></i>
-              </div>
-              <div className="project-links">
-                <button>
-                  <a href="https://git-search-octavian.netlify.com/">
-                    <span>Live Demo</span>
-                    <i className="fas fa-external-link-alt"></i>
-                  </a>
-                </button>
-                <button>
-                  <a href="https://github.com/octaviandd/git-repositories-react">
                     <span>View Source</span>
                     <i className="fab fa-github"></i>
                   </a>
