@@ -32,7 +32,7 @@ export default function Projects() {
               </div>
               <div className="project-links">
                 <button>
-                  <a href="https://github.com/octaviandd/InviteSystem">
+                  <a href="https://dry-peak-83989.herokuapp.com/login">
                     <span>Live Demo</span>
                     <i className="fas fa-external-link-alt"></i>
                   </a>
